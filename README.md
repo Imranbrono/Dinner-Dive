@@ -1,11 +1,4 @@
-
-
-
-
-[Green Gradient Application Showcase Presentation.pptx](https://github.com/Imranbrono/dinnerdive/files/15137659/Green.Gradient.Application.Showcase.Presentation.pptx)
-
-
-# dinnerdive
+# Dinner Dive
 
 A Mobile Application to Inviting users to dive into delightful dinner ideas
 
@@ -31,14 +24,7 @@ Shopping List Integration: Allow users to create and manage shopping lists direc
 Offline Mode: Cache recipe data for offline access. Enable users to view saved recipes even without an internet connection.
 
 ## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Clone This Repository
+Setup Firebase Project
+Run the project and Make Update as Well 
+Enjoy Coding
