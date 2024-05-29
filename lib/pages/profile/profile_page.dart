@@ -51,27 +51,30 @@ class _ProfilePageState extends State<ProfilePage> {
                   ),
                 ),
               ),
-
             ),
-          // const Card(
-          //     child: ListTile(
-          //       leading: Icon(Icons.edit),
-          //       title: Text('Edit profile'),
-          // )),
-          // const Card(
-          //     child: ListTile(
-          //        leading: Icon(Icons.settings),
-          //      title: Text('Settings'),
-          // )),
-          // Card(
-          //     child: ListTile(
-          //         onTap: () => FirebaseFunctions.userLogout(context),
-          //        leading: const Icon(Icons.logout),
-          //        title: const Text('Logout'),
-          // )))
-          )
+          ),
+          Card(
+            child: ListTile(
+              leading: Icon(Icons.edit),
+              title: Text('Edit profile'),
+            ),
+          ),
+          Card(
+            child: ListTile(
+              leading: Icon(Icons.settings),
+              title: Text('Settings'),
+            ),
+          ),
+          Card(
+            child: ListTile(
+              onTap: () => FirebaseFunctions.userLogout(context),
+              leading: Icon(Icons.logout),
+              title: Text('Logout'),
+            ),
+          ),
         ],
       ),
     );
   }
+
 }
